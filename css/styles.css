@@ -888,13 +888,13 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: white;
 }
-.btn-close {
+.icon-close {
   color: #000000;
   background-color: transparent;
   border: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-close-main {
+.btn-close {
   width: 18px;
   height: 18px;
   padding: 0;
@@ -903,7 +903,7 @@ body {
   background-color: #fff;
   cursor: pointer;
 }
-.circle-close-btn {
+.circle-btn {
   position: absolute;
   display: flex;
   top: 8px;
@@ -916,8 +916,8 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
-.circle-close-btn:hover,
-.circle-close-btn:focus .btn-close {
+.circle-btn:hover,
+.circle-btn:focus .btn-close {
   fill: var(--accent-color);
 }
 
@@ -1035,7 +1035,7 @@ textarea:focus {
   display: flex;
   align-items: center;
 }
-.btn-modal-sub {
+.modal-sub {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1058,8 +1058,8 @@ textarea:focus {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-modal-sub:focus,
-.btn-modal-sub:hover {
+.modal-sub:focus,
+.modal-sub:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

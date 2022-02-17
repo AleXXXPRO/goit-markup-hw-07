@@ -17,11 +17,12 @@
 }
 .section-footer__addres-fiz {
   display: block;
-  font-style: normal;
-  font-size: 14px;
   margin-bottom: 9px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-style: normal;
+  @include font(14px, none, 1.71, 0.03em);
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
   color: var(--second-title-text);
   // transition-property: color;
   // transition-duration: 250ms;
@@ -35,12 +36,13 @@
 
 .section-footer__mail {
   display: block;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
   margin-bottom: 9px;
-  letter-spacing: 0.03em;
+  font-style: normal;
+  @include font(14px, 400, 1.71, 0.03em);
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   // transition-property: color;
   // transition-duration: 250ms;
@@ -54,10 +56,10 @@
 
 .section-footer__tel {
   font-style: normal;
-
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(14px, none, 1.71, 0.03em);
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   // transition-property: color;
   // transition-duration: 250ms;
@@ -76,10 +78,11 @@
 }
 .footer-join__text {
   margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(14px, 700, 1.14, 0.03em);
+  // font-weight: bold;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-text);
 }
@@ -121,10 +124,11 @@
 .footer-form__text {
   display: block;
   margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(14px, 700, 1.14, 0.03em);
+  // font-weight: bold;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-text);
 }
@@ -141,9 +145,10 @@
   color: var(--second-title-text);
   background-color: #2f303a;
   &::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
+    @include font(16px, none, 1.25, 0.03em);
+    // font-size: 16px;
+    // line-height: 1.25;
+    // letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
 }

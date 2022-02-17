@@ -92,11 +92,11 @@ body {
 
 .header-nav {
   display: flex;
-  font-weight: 500;
   font-size: 14px;
-  align-items: center;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  align-items: center;
 }
 
 .header-list {
@@ -144,8 +144,8 @@ body {
   display: flex;
   margin-left: auto;
   align-items: center;
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -185,8 +185,8 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
@@ -209,10 +209,9 @@ body {
 .section-hero__title {
   margin-bottom: 30px;
   color: var(--second-title-text);
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -221,8 +220,8 @@ body {
   min-width: 200px;
   height: 50px;
   border: none;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
   border-radius: 4px;
@@ -277,6 +276,7 @@ body {
 .features__after-title {
   margin-bottom: 10px;
   font-size: 14px;
+  font-weight: none;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -286,6 +286,7 @@ body {
 .features__text {
   margin-bottom: 0;
   font-size: 14px;
+  font-weight: none;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -298,9 +299,10 @@ body {
   margin-top: 0;
   margin-bottom: 50px;
   font-size: 36px;
+  font-weight: none;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -325,11 +327,11 @@ body {
   justify-content: center;
   width: 370px;
   height: 70px;
-  font-weight: bold;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--second-title-text);
   background-color: rgba(47, 48, 58, 0.8);
@@ -359,20 +361,21 @@ body {
   margin-top: 0;
   margin-bottom: 50px;
   font-size: 36px;
+  font-weight: none;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
 .team__title-members {
   margin-top: 0;
   margin-bottom: 10px;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -380,9 +383,10 @@ body {
   margin-top: 0;
   margin-bottom: 16px;
   font-size: 16px;
+  font-weight: none;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .team__text-content {
@@ -425,9 +429,10 @@ body {
   margin-top: 0;
   margin-bottom: 50px;
   font-size: 36px;
+  font-weight: none;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -471,13 +476,13 @@ body {
 
 .portfolio-btn {
   font-family: inherit;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   cursor: pointer;
   padding: 6px 22px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -495,6 +500,7 @@ body {
 .gallery__title {
   margin-bottom: 4px;
   font-size: 18px;
+  font-weight: none;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--header-text-color);
@@ -502,6 +508,7 @@ body {
 
 .gallery__text {
   font-size: 16px;
+  font-weight: none;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
@@ -561,6 +568,7 @@ body {
   opacity: 0;
   padding: 63px 24px;
   font-size: 18px;
+  font-weight: none;
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: var(--second-title-text);
@@ -598,9 +606,10 @@ body {
 
 .section-footer__addres-fiz {
   display: block;
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
-  margin-bottom: 9px;
+  font-weight: none;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-title-text);
@@ -614,11 +623,11 @@ body {
 
 .section-footer__mail {
   display: block;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
   margin-bottom: 9px;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition-property: color;
@@ -632,6 +641,7 @@ body {
 .section-footer__tel {
   font-style: normal;
   font-size: 14px;
+  font-weight: none;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -650,8 +660,8 @@ body {
 
 .footer-join__text {
   margin-bottom: 20px;
-  font-weight: bold;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -695,8 +705,8 @@ body {
 .footer-form__text {
   display: block;
   margin-bottom: 20px;
-  font-weight: bold;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -719,18 +729,21 @@ body {
 }
 .footer-form__input::-moz-placeholder {
   font-size: 16px;
+  font-weight: none;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input:-ms-input-placeholder {
   font-size: 16px;
+  font-weight: none;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-form__input::placeholder {
   font-size: 16px;
+  font-weight: none;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -841,11 +854,11 @@ body {
 .form__title {
   /* outline: 1px solid blue; */
   margin-bottom: 12px;
-  font-weight: bold;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--header-text-color);
 }
 
@@ -896,24 +909,24 @@ body {
 }
 
 .form__field textarea::-moz-placeholder {
-  font-weight: normal;
   font-size: 12px;
+  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .form__field textarea:-ms-input-placeholder {
-  font-weight: normal;
   font-size: 12px;
+  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
 .form__field textarea::placeholder {
-  font-weight: normal;
   font-size: 12px;
+  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
@@ -942,8 +955,8 @@ textarea:focus {
 }
 
 .form__label-policy {
-  font-weight: normal;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);

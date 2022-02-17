@@ -80,11 +80,12 @@
 .form__title {
   /* outline: 1px solid blue; */
   margin-bottom: 12px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(20px, 700, 1.15, 0.03em);
+  // font-weight: bold;
+  // font-size: 20px;
+  // line-height: 1.15;
+  // letter-spacing: 0.03em;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--header-text-color);
 }
 .form__label {
@@ -132,10 +133,11 @@
 
 .form__field {
   textarea::placeholder {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+    @include font(12px, 400, 1.17, 0.01em);
+    // font-weight: normal;
+    // font-size: 12px;
+    // line-height: 1.17;
+    // letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
   }
 }
@@ -161,10 +163,11 @@ textarea {
   padding-left: 14px;
 }
 .form__label-policy {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(14px, 400, 1.71, 0.03em);
+  // font-weight: normal;
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 .form__policy-deal {

@@ -267,7 +267,7 @@ body {
   margin-right: 0;
 }
 
-.icon-area {
+.features__icon-area {
   display: flex;
   width: 270px;
   height: 120px;
@@ -519,13 +519,13 @@ body {
   letter-spacing: 0.03em;
 }
 
-.section-portfolio__list {
+.portfolio__list {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
 }
 
-.section-portfolio__item:not(:last-child) {
+.portfolio__item:not(:last-child) {
   margin-right: 8px;
 }
 

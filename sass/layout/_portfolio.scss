@@ -28,14 +28,14 @@
 
 .gallery__title {
   margin-bottom: 4px;
-  @include font(18px, none, 2, 0.06em);
+  @include font(18px, null, 2, 0.06em);
   // font-size: 18px;
   // line-height: 2;
   // letter-spacing: 0.06em;
   color: var(--header-text-color);
 }
 .gallery__text {
-  @include font(16px, none, 1.88, 0.03em);
+  @include font(16px, null, 1.88, 0.03em);
   // font-size: 16px;
   // line-height: 1.88;
   // letter-spacing: 0.03em;
@@ -91,7 +91,7 @@
   width: 370px;
   opacity: 0;
   padding: 63px 24px;
-  @include font(18px, none, 1.56, 0.03em);
+  @include font(18px, null, 1.56, 0.03em);
   // font-size: 18px;
   // line-height: 1.56;
   // letter-spacing: 0.03em;

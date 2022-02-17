@@ -19,7 +19,7 @@
   display: block;
   margin-bottom: 9px;
   font-style: normal;
-  @include font(14px, none, 1.71, 0.03em);
+  @include font(14px, null, 1.71, 0.03em);
   // font-size: 14px;
   // line-height: 1.71;
   // letter-spacing: 0.03em;
@@ -56,7 +56,7 @@
 
 .section-footer__tel {
   font-style: normal;
-  @include font(14px, none, 1.71, 0.03em);
+  @include font(14px, null, 1.71, 0.03em);
   // font-size: 14px;
   // line-height: 1.71;
   // letter-spacing: 0.03em;
@@ -145,7 +145,7 @@
   color: var(--second-title-text);
   background-color: #2f303a;
   &::placeholder {
-    @include font(16px, none, 1.25, 0.03em);
+    @include font(16px, null, 1.25, 0.03em);
     // font-size: 16px;
     // line-height: 1.25;
     // letter-spacing: 0.03em;

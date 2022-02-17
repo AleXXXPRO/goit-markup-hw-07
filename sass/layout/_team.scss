@@ -21,7 +21,7 @@
 .team__title {
   margin-top: 0;
   margin-bottom: 50px;
-  @include font(36px, none, 1.17, 0.03em);
+  @include font(36px, null, 1.17, 0.03em);
   // font-size: 36px;
   // line-height: 1.17;
   // letter-spacing: 0.03em;
@@ -42,7 +42,7 @@
 .team__text {
   margin-top: 0;
   margin-bottom: 16px;
-  @include font(16px, none, 1.19, 0.03em);
+  @include font(16px, null, 1.19, 0.03em);
   // font-size: 16px;
   // line-height: 1.19;
   // letter-spacing: 0.03em;

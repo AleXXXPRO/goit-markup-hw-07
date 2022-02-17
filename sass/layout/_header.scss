@@ -5,15 +5,10 @@
 .section-header {
   border-bottom: 1px solid #ececec;
 }
-.logo {
+.header__logo {
   display: flex;
   margin-right: 93px;
   color: #000000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .logo--accent {
@@ -44,10 +39,10 @@
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--header-text-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  // transition-property: color;
+  // transition-duration: 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include tranzition-color;
   &:hover,
   &:focus,
   .current {
@@ -89,10 +84,10 @@
   display: flex;
   align-items: center;
   color: var(--primary-text-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  // transition-property: color;
+  // transition-duration: 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include tranzition-color;
   &:hover,
   &:focus {
     color: var(--accent-color);

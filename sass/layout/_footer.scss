@@ -10,14 +10,9 @@
 .section-footer__adress-all {
   width: 231px;
 }
-.footer-logo {
+.section-footer__logo {
   display: block;
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
 .section-footer__addres-fiz {
@@ -28,10 +23,10 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-title-text);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  // transition-property: color;
+  // transition-duration: 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include tranzition-color;
   &:hover,
   &:focus {
     color: var(--accent-color);
@@ -47,10 +42,10 @@
   margin-bottom: 9px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  // transition-property: color;
+  // transition-duration: 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include tranzition-color;
   &:hover,
   &:focus {
     color: var(--accent-color);
@@ -64,14 +59,17 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  // transition-property: color;
+  // transition-duration: 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @include tranzition-color;
   &:hover,
   &:focus {
     color: var(--accent-color);
   }
 }
+
 .footer-join {
   width: 206px;
   margin-left: 70px;

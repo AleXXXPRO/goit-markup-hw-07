@@ -80,15 +80,10 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.logo {
+.header__logo {
   display: flex;
   margin-right: 93px;
   color: #000000;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .logo--accent {
@@ -186,6 +181,14 @@ body {
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .section-hero {
@@ -587,14 +590,9 @@ body {
   width: 231px;
 }
 
-.footer-logo {
+.section-footer__logo {
   display: block;
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
 

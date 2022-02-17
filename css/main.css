@@ -111,7 +111,6 @@ body {
 .header-list__item {
   margin-right: 50px;
 }
-
 .header-list__item:last-child {
   margin-right: 0;
 }
@@ -125,10 +124,8 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-list__link:hover,
-.header-list__link:focus,
-.current {
+.header-list__link:hover, .header-list__link:focus,
+.header-list__link .current {
   color: var(--accent-color);
 }
 
@@ -171,9 +168,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.auth-nav__link:hover,
-.auth-nav__link:focus {
+.auth-nav__link:hover, .auth-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -243,9 +238,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.section-hero__button:hover,
-.section-hero__button:focus {
+.section-hero__button:hover, .section-hero__button:focus {
   background-color: #188ce8;
   color: var(--btn-color);
 }
@@ -412,9 +405,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.team__text-link:hover,
-.team__text-link:focus {
+.team__text-link:hover, .team__text-link:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
@@ -454,15 +445,8 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.client__link:hover,
-.client__link:focus {
+.client__link:hover, .client__link:focus {
   border: 1px solid var(--accent-color);
-}
-
-.client__link:hover .client__icon,
-.client__link:focus .client__icon {
-  fill: var(--accent-color);
 }
 
 .client__item + .client__item {
@@ -477,6 +461,9 @@ body {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client__link:hover .client__icon, .client__link:focus .client__icon {
+  fill: var(--accent-color);
 }
 
 .portfolio-btn {
@@ -496,16 +483,13 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-btn:hover, .portfolio-btn:focus {
   color: var(--btn-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .gallery__title {
-  /* margin-top: 0; */
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
@@ -549,15 +533,8 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.gallery__link:hover,
-.gallery__link:focus {
+.gallery__link:hover, .gallery__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.gallery__link:hover .gallery__animation {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .gallery__content {
@@ -589,6 +566,10 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
+}
+.gallery__link:hover .gallery__animation {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .footer-all {
@@ -629,9 +610,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.section-footer__addres-fiz:hover,
-.section-footer__addres-fiz:focus {
+.section-footer__addres-fiz:hover, .section-footer__addres-fiz:focus {
   color: var(--accent-color);
 }
 
@@ -648,11 +627,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.section-footer__mail:hover,
-.section-footer__mail:focus,
-.section-footer__tel:hover,
-.section-footer__tel:focus {
+.section-footer__mail:hover, .section-footer__mail:focus {
   color: var(--accent-color);
 }
 
@@ -665,6 +640,9 @@ body {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.section-footer__tel:hover, .section-footer__tel:focus {
+  color: var(--accent-color);
 }
 
 .footer-join {
@@ -698,9 +676,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-join__link:hover,
-.footer-join__link:focus {
+.footer-join__link:hover, .footer-join__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -743,21 +719,18 @@ body {
   color: var(--second-title-text);
   background-color: #2f303a;
 }
-
 .footer-form__input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-form__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -774,9 +747,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-subscribe__button:hover,
-.footer-subscribe__button:focus {
+.footer-subscribe__button:hover, .footer-subscribe__button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -855,9 +826,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
-
-.btn-circle:hover,
-.btn-circle:focus .btn--close {
+.btn-circle:hover, .btn-circle:focus .btn--close {
   fill: var(--accent-color);
 }
 
@@ -905,11 +874,6 @@ body {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.input__area:focus + .input__icon {
-  fill: var(--accent-color);
-}
-
 .input__area:focus {
   border-color: var(--accent-color);
   outline: var(--accent-color);
@@ -928,6 +892,9 @@ body {
   height: 18px;
   fill: var(--title-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input__area:focus + .input__icon {
+  fill: var(--accent-color);
 }
 
 .form__field textarea::-moz-placeholder {
@@ -963,7 +930,6 @@ textarea {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 textarea:focus {
   border-color: var(--accent-color);
   outline: var(--accent-color);
@@ -1019,9 +985,7 @@ textarea:focus {
   border-radius: 4px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-btn:focus,
-.modal-btn:hover {
+.modal-btn:focus, .modal-btn:hover {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

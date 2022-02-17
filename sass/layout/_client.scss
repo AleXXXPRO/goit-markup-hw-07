@@ -22,18 +22,18 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
-.client__link:hover,
-.client__link:focus {
-  border: 1px solid var(--accent-color);
+
+.client__item {
+  & + & {
+    margin-left: 30px;
+  }
 }
-.client__link:hover .client__icon,
-.client__link:focus .client__icon {
-  fill: var(--accent-color);
-}
-.client__item + .client__item {
-  margin-left: 30px;
-}
+
 .client__icon {
   display: flex;
   width: 106px;
@@ -42,4 +42,8 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .client__link:hover &,
+  .client__link:focus & {
+    fill: var(--accent-color);
+  }
 }
